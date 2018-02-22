@@ -28,3 +28,30 @@
   border-radius: 50% 0 50% 0;
   margin: auto;
 }
+
+/* Because of the way that ERB interacts with CSS, I am targeting the links on any/all buttons instead of specifying */
+
+.button {
+  /* dark blue */
+  background-color: #004a9f;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  /* lighter blue */
+  background-color: #1875d1;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: center;
+}
