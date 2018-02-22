@@ -14,3 +14,17 @@
  *= require_self
 
  */
+.card {
+  width: 100px;
+  height: 150px;
+  padding: 3px;
+  background-color: green;
+  border-radius: 3px;
+}
+.cardSwirl {
+  background-color: yellow;
+  width: 80%;
+  height: 60%;
+  border-radius: 50% 0 50% 0;
+  margin: auto;
+}
