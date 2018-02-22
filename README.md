@@ -7,7 +7,7 @@ The overall goal is to have a game of UNO that is playable between 2-4 users.
 # How to load
 
 To run code locally, make sure your Postgres server is started.
-In your terminal, run 'ruby s' to start a server.
+In your terminal, run 'rails s' to start a server.
 
 Go to 'localhost:3000' to view.
 
