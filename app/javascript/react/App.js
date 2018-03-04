@@ -1,9 +1,13 @@
 import React from 'react';
 
+import GameContainer from './containers/GameContainer'
+
 const App = (props) => {
 
   return(
-    <div>Poo Tee Weet</div>
+    <div>
+      <GameContainer />
+    </div>
   )
 }
 export default App;
