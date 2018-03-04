@@ -33,7 +33,11 @@ group :test do
 end
 
 group :development, :test do
+<<<<<<< HEAD
   gem 'dotenv-rails'
+=======
+  gem 'action-cable-testing', '~> 0.3.0'
+>>>>>>> action-cable
 end
 
 group :development do
@@ -54,5 +58,11 @@ gem 'factory_bot', group: [:development, :test]
 gem 'valid_attribute', group: [:development, :test]
 gem 'shoulda-matchers', group: [:development, :test], require: false
 gem 'devise'
+<<<<<<< HEAD
 gem 'foundation-rails', '~> 5.0'
 gem 'webpacker', '~> 3.2'
+=======
+gem 'webpacker', '~> 3.2'
+gem "redis", "~> 3.0"
+gem 'warden'
+>>>>>>> action-cable
