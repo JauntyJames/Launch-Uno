@@ -28,9 +28,13 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+group :test do
+  gem 'coveralls', require: false
+end
 
 group :development, :test do
-
+  gem 'dotenv-rails'
+  gem 'action-cable-testing', '~> 0.3.0'
 end
 
 group :development do
@@ -51,5 +55,6 @@ gem 'factory_bot', group: [:development, :test]
 gem 'valid_attribute', group: [:development, :test]
 gem 'shoulda-matchers', group: [:development, :test], require: false
 gem 'devise'
-gem 'foundation-rails', '~> 5.0'
 gem 'webpacker', '~> 3.2'
+gem "redis", "~> 3.0"
+gem 'warden'
