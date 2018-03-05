@@ -1,12 +1,13 @@
 import React from 'react';
 import Card from './Card'
 
+import GameContainer from './containers/GameContainer'
+
 const App = (props) => {
 
   return(
     <div>
-      <div>Poo Tee Weet</div>
-      <Card />
+      <GameContainer />
     </div>
   )
 }
